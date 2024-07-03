@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 
 }
@@ -197,6 +197,13 @@
   font-family:Cursive;
   font-style:italic;
   font-size: 4.2em;
+}
+
+.hr{
+  width: 550px; 
+  height: 3px; 
+  background-color: rgb(255, 0, 140); 
+  margin: 0 auto;
 }
 
 .container{
@@ -578,6 +585,10 @@
           height: 60px;
           border-radius: 15px;
           top: 120px;
+      }
+      .hr{
+        width: 230px;
+        height: 1px;
       }
       }
            
