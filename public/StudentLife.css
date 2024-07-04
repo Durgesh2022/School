@@ -271,7 +271,7 @@ iframe{
   margin: 20px 0;
   background: white;
   
-  height: 2000px;
+  height: 1800px;
   position: relative;
   overflow: hidden;
   background-color: white;
@@ -293,9 +293,9 @@ iframe{
   position: absolute;
   left: 210px;
   top: 10px; /* Adjust as needed */
-  background-color:  #8a46e8;
+  background-color: #12CDD4;
   width: 400px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 50px;
   color: black;
@@ -307,10 +307,10 @@ iframe{
   position: absolute; /* Add this line to enable positioning */
   top: 220px; /* Adjust this value to position below the h1 element */
   left: 60px; /* Adjust this value to position to the left */
-  background-color:  #8a46e8;
+  background-color: #12CDD4;
   width: 350px;
   height:200px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 30px;
   margin: 0; /* Remove margin as we are using positioning */
@@ -343,7 +343,7 @@ height:5.5rem;
   top: 900px; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Center both horizontally and vertically */
-  border: 7px solid black;
+  border: 1px solid white;
   background-color:#d101f4 ;
   width: 420px;
   height: 370px;
@@ -361,9 +361,9 @@ height:5.5rem;
   position: absolute;
   top: 450px; /* Adjust this value to position below the h1 element */
   right: 60px;
-  background-color:  #8a46e8;
+  background-color: #12CDD4;
   width: 400px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 50px;
   color: black;
@@ -374,12 +374,12 @@ height:5.5rem;
   position: absolute; /* Add this line to enable positioning */
   right: 210px;
   top: 300px; /* Adjust this value to position to the left */
-  background-color:  #8a46e8;
+  background-color: #12CDD4;
   width: 400px;
   height:200px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
-  padding: 10px;
+  padding: 20px;
   margin: 0; /* Remove margin as we are using positioning */
   font-size: 2.30em;
   color: black;
@@ -396,7 +396,7 @@ height:5.5rem;
 .disc4 {
   position: absolute;
   top: 550px; /* Adjust this value to position below the h1 element */
-  left: 200px;
+  left: 400px;
   color: red;
   font-size: 2.5em;
   font-family: 'Pacifico', cursive;
@@ -408,11 +408,11 @@ height:5.5rem;
 
 .discription6 {
   position: absolute;
-  top: 900px; /* Adjust this value to position below the h1 element */
+  top: 1000px; /* Adjust this value to position below the h1 element */
   left: 60px; /* Adjust as needed */
-  background-color:  #8a46e8;
+  background-color: #12CDD4;
   width: 400px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 50px;
   color: black;
@@ -422,11 +422,11 @@ height:5.5rem;
 .discription7 {
   position: absolute; /* Add this line to enable positioning */
   left: 220px;
-  top: 1100px; /* Adjust this value to position to the left */
-  background-color:  #8a46e8;
+  top: 1200px; /* Adjust this value to position to the left */
+  background-color: #12CDD4;
   width: 350px;
   height:200px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 30px;
   margin: 0; /* Remove margin as we are using positioning */
@@ -456,10 +456,10 @@ height:4.5rem;
 .discription8 {
   position: absolute;
   right: 210px;
-  top: 1500px; /* Adjust as needed */
-  background-color:  #8a46e8;
+  top: 1400px; /* Adjust as needed */
+  background-color: #12CDD4;
   width: 400px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 50px;
   color: black;
@@ -468,12 +468,12 @@ height:4.5rem;
 }
 .discription9 {
   position: absolute; /* Add this line to enable positioning */
-  top: 1350px; /* Adjust this value to position below the h1 element */
+  top: 1250px; /* Adjust this value to position below the h1 element */
   right: 60px; /* Adjust this value to position to the left */
-  background-color: #8a46e8;
+  background-color: #12CDD4;
   width: 350px;
   height:200px;
-  border: 6px solid black;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 30px;
   margin: 0; /* Remove margin as we are using positioning */
@@ -491,8 +491,8 @@ height:4.5rem;
 }
 .disc6 {
   position: absolute;
-  top: 1620px; /* Adjust this value to position below the h1 element */
-  left: 40px;
+  top: 1520px; /* Adjust this value to position below the h1 element */
+  left: 150px;
   color: red;
   font-size: 2.5em;
   font-family: 'Pacifico', cursive;
@@ -573,7 +573,7 @@ height:4.5rem;
   display: block;
   margin: 0 auto;
   width: 100px; /* Adjust size as per your requirement */
-  top: 750px;
+  top: 680px;
   position: relative;
   z-index: 4; /* Ensure image is above background */
   border-radius: 30px;
@@ -677,7 +677,7 @@ width: 50%;
   
    
   .Discription1{
-    height: 1600px;
+    height: 1400px;
   }
   .discription2 {
     width: 250px; /* Adjusted width to fit smaller screens */
@@ -691,9 +691,9 @@ width: 50%;
     width: 250px; /* Adjusted width */
     height: 120px; /* Adjusted height */
     font-size: 1.5em;
-    padding: 10px; /* Adjusted padding */
+    padding: 20px; /* Adjusted padding */
     left: 10px; /* Centered horizontally */
-    top: 220px;
+    top: 210px;
     
   }
   .discription3 img{
@@ -701,9 +701,9 @@ width: 50%;
     height: 3rem;
   }
   .disc3{
-    top: 150px;
+    top: 130px;
     font-size: 2em;
-    left: 120px;
+    left: 100px;
     
   }
   .discription4{
@@ -725,13 +725,13 @@ width: 50%;
    
   }
   .disc4{
-    left: 100px;
+    left: 200px;
     font-size: 2em;
-    top: 500px;
+    top: 450px;
     
   }
   .center1 img{
-    top: 750px;
+    top: 700px;
     width: 320px;
     height: 270px;
   }
@@ -748,15 +748,15 @@ width: 50%;
     font-size: 1.5em;
     padding: 20px;
     left: 90px;
-    top: 1000px;
+    top: 970px;
   }
   .discription7 img{
     height: 3rem;
   }
   .disc5{
     font-size: 2em;
-    left: 300px;
-    top: 930px;
+    left: 260px;
+    top: 890px;
   }
   .discription8{
     width: 250px; /* Adjusted width to fit smaller screens */
@@ -778,8 +778,8 @@ width: 50%;
   }
   .disc6{
     font-size: 2em;
-    top: 1250px;
-    left: 0px;
+    top: 1200px;
+    left: 70px;
   }
 
   .bg2 {
@@ -788,7 +788,7 @@ width: 50%;
   
   .footer1 img {
     width: 80px; /* Adjusted image width */
-    top: 450px;
+    top: 440px;
   }
   
   .disc3 {
