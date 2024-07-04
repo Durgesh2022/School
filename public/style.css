@@ -738,7 +738,7 @@ width: 50%;
     font-weight: 400;
     font-size: 7em;
     font-family: "Copperplate", Fantasy;
-    color: purple;
+    color: #4faaef;
     margin: 10px 0;
     text-align: center;
     height: 300px;
@@ -780,9 +780,9 @@ width: 50%;
     position: absolute;
     left: 300px;
     top: 20px; /* Adjust as needed */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 400px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 50px;
     color: black;
@@ -794,10 +794,10 @@ width: 50%;
     position: absolute; /* Add this line to enable positioning */
     top: 270px; /* Adjust this value to position below the h1 element */
     left: 150px; /* Adjust this value to position to the left */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 350px;
     height:200px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 30px;
     margin: 0; /* Remove margin as we are using positioning */
@@ -818,15 +818,15 @@ position: relative;
     top: 600px; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Center both horizontally and vertically */
-    border: 7px solid black;
-    background-color:#d101f4 ;
+    border: 1px solid white;
+    background-color: #4faaef;
     width: 420px;
     height: 370px;
     border-radius: 50%;
     padding: 70px;
     margin: 0;
     color: black;
-    font-family: 'Pacifico', cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 3.2em;
     text-align: center;
     box-shadow: 0 16px 24px rgba(16, 16, 16, 0.7);
@@ -836,9 +836,9 @@ position: relative;
     position: absolute;
     right: 300px;
     top: 20px; /* Adjust as needed */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 400px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 50px;
     color: black;
@@ -849,10 +849,10 @@ position: relative;
     position: absolute; /* Add this line to enable positioning */
     top: 270px; /* Adjust this value to position below the h1 element */
     right: 150px; /* Adjust this value to position to the left */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 400px;
     height:200px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 30px;
     margin: 0; /* Remove margin as we are using positioning */
@@ -872,9 +872,9 @@ position: relative;
     position: absolute;
     left: 300px;
     top: 800px; /* Adjust as needed */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 400px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 50px;
     color: black;
@@ -885,10 +885,10 @@ position: relative;
     position: absolute; /* Add this line to enable positioning */
     top: 600px; /* Adjust this value to position below the h1 element */
     left: 150px; /* Adjust this value to position to the left */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 250px;
     height:240px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 30px;
     margin: 0; /* Remove margin as we are using positioning */
@@ -909,9 +909,9 @@ position: relative;
     position: absolute;
     right: 300px;
     top: 810px; /* Adjust as needed */
-    background-color:  #8a46e8;
+    background-color: #12CDD4;
     width: 400px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 50px;
     color: black;
@@ -922,10 +922,10 @@ position: relative;
     position: absolute; /* Add this line to enable positioning */
     top: 600px; /* Adjust this value to position below the h1 element */
     right: 150px; /* Adjust this value to position to the left */
-    background-color: #8a46e8;
+    background-color: #12CDD4;
     width: 250px;
     height:280px;
-    border: 6px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     padding: 30px;
     margin: 0; /* Remove margin as we are using positioning */
@@ -1113,14 +1113,14 @@ iframe{
         font-size: 4em;
         height: 200px;
     }
-    .discription2 {
+.discription2 {
         position: absolute;
         left: 85px;
         top: 10px; /* Adjust as needed */
        
         width: 150px;
         height: 120px;
-        border: 3px solid black;
+        border: 1px solid white;
         
         padding: 10px;
 
@@ -1132,7 +1132,7 @@ iframe{
         left: 45px; /* Adjust this value to position to the left */
         width: 100px;
         height: 50px;
-        border: 3px solid black;
+        border: 1px solid white;
         border-radius: 15px;
         padding: 6px;
 
@@ -1148,15 +1148,15 @@ iframe{
         top: 180px; /* Center vertically */
         left: 50%; /* Center horizontally */
         transform: translate(-50%, -50%); /* Center both horizontally and vertically */
-        border: 4px solid black;
-        background-color:#d101f4 ;
+        border: 1px solid white;
+        
         width: 120px;
         height: 100px;
         border-radius: 50%;
-        padding: 22px;
+        padding: 30px;
         margin: 0;
         color: black;
-        font-family: 'Pacifico', cursive;
+        
         font-size: .7em;
         text-align: center;
     }
@@ -1166,7 +1166,7 @@ iframe{
         top: 10px; /* Adjust as needed */
         width: 150px;
         height: 120px;
-        border: 3px solid black;
+        border: 1px solid white;
         
         padding: 10px;
 
@@ -1178,7 +1178,7 @@ iframe{
         right: 45px; /* Adjust this value to position to the left */
         width: 100px;
         height: 50px;
-        border: 3px solid black;
+        border: 1px solid white;
         border-radius: 15px;
         padding: 6px;
 
@@ -1196,7 +1196,7 @@ iframe{
        
         width: 150px;
         height: 120px;
-        border: 3px solid black;
+        border: 1px solid white;
         
         padding: 10px;
 
@@ -1208,7 +1208,7 @@ iframe{
         left: 45px; /* Adjust this value to position to the left */
         width: 100px;
         height: 50px;
-        border: 3px solid black;
+        border: 1px solid white;
         border-radius: 15px;
         padding: 6px;
 
@@ -1226,7 +1226,7 @@ iframe{
            
             width: 150px;
             height: 120px;
-            border: 3px solid black;
+            border: 1px solid white;
             
             padding: 10px;
     
@@ -1238,13 +1238,13 @@ iframe{
             right: 45px; /* Adjust this value to position to the left */
             width: 100px;
             height: 50px;
-            border: 3px solid black;
+            border: 1px solid white;
             border-radius: 15px;
             padding: 6px;
     
             font-size: .5em;
         }
-        .discription9 img{
+    .discription9 img{
     
               left: .3rem;
               height:1.2rem;
