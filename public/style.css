@@ -738,7 +738,7 @@ width: 50%;
     font-weight: 400;
     font-size: 7em;
     font-family: "Copperplate", Fantasy;
-    color: #4faaef;
+    color: #018ffc;
     margin: 10px 0;
     text-align: center;
     height: 300px;
@@ -819,7 +819,7 @@ position: relative;
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Center both horizontally and vertically */
     border: 1px solid white;
-    background-color: #4faaef;
+    background-color: #018ffc;
     width: 420px;
     height: 370px;
     border-radius: 50%;
