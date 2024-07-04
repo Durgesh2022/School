@@ -10,14 +10,10 @@ dotenv.config();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 const db = new pg.Client({
-  user: process.env.MYSQL_USER,
-  host: process.env.MYSQL_HOST,
-  database: process.env.MYSQL_DATABASE,
-  password: process.env.MYSQL_PASSWORD,
-  port: process.env.MYSQL_PORT || 5432,
+ connectionString: process.env.POSTGRES_URL,
 });
 
 db.connect();
@@ -70,7 +66,7 @@ app.post("/submit", async (req, res) => {
 
   try {
     const result = await db.query(
-      "INSERT INTO admission3 (firstname, lastname, class, dob, fathername, age, mothername, aadhaarno, mobilenumber, emailid, gender) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING *",
+      "INSERT INTO admission (firstname, lastname, class, dob, fathername, age, mothername, aadhaarno, mobilenumber, emailid, gender) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING *",
       [firstname, lastname, studentClass, dob, fathername, age, mothername, aadhaarno, mobilenumber, emailid, gender]
     );
     const newAdmission = result.rows[0];
@@ -94,7 +90,7 @@ app.get("/admissions", async (req, res) => {
 // API endpoint to fetch admissions data
 app.get("/api/admissions", async (req, res) => {
   try {
-    const result = await db.query("SELECT * FROM admission3");
+    const result = await db.query("SELECT * FROM admission");
     res.json(result.rows);
   } catch (err) {
     console.error("Error fetching admissions:", err);
