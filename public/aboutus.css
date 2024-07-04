@@ -206,7 +206,7 @@
     padding: 10px 20px;
     font-family:Cursive;
     font-style:italic;
-    font-size: 5em;
+    font-size: 6em;
   }
 .contact h2{
     font-family: 'Times New Roman', Times, serif;
@@ -227,6 +227,7 @@
     font-weight: bold;
     font-family:Cursive;
     font-style:italic;
+    font-size: 2.5em;
 }
 .principal-photo {
     margin: 20px auto;
@@ -239,16 +240,19 @@
     color: blue;
     font-weight: bold;
     position: relative;
+    font-family:'Pacifico',cursive;
     left:100px;
-    bottom:30px;
+    bottom:40px;
     
 }
 .content {
     text-align: justify;
+    font-size: 1.2em;
 }
 .foter1 {
     margin-top: 50px;
     text-align: left;
+    font-size: 1.5em;
 }
 
 
@@ -293,11 +297,11 @@
 }
 .f1 .left h3 {
     margin: 5px 0;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .f1 .left p{
-    font-size: 15px;
+    font-size: 25px;
     text-align: left;
 }
 .f1 .right {
@@ -306,8 +310,11 @@
     right:100px;
 }
 .f1 .right img {
-    width: 100px;
+    width: 250px;
     top: 30px;
+}
+.f1 .right p{
+  font-size: 30px;
 }
 .f1 .social-icons {
     display: flex;
@@ -315,8 +322,8 @@
     gap: 10px;
 }
 .f1 .social-icons img {
-    width: 24px;
-    height: 24px;
+    width: 44px;
+    height: 44px;
 }
 .footer1 {
   text-align: center;
@@ -331,7 +338,7 @@
   display: block;
   margin: 0 auto;
   width: 100px; /* Adjust size as per your requirement */
-  top: 480px;
+  top: 640px;
   position: relative;
   z-index: 10; /* Ensure image is above background */
   border-radius: 30px;
@@ -449,7 +456,7 @@ i{
     left: 10px;
   }
   .f1 .left h3{
-    font-size: 15px;
+    font-size: 11px;
   }
   .f1 .left p{
     font-size: 7px;
@@ -458,7 +465,7 @@ i{
     right: 10px;
   }
   .f1 .right p{
-    font-size: 14px;
+    font-size: 10px;
 }
   .f1 .right img {
     width: 50px;
@@ -479,6 +486,9 @@ i{
 h2{
   font-size: 2.5em;
 }
+.head1{
+  font-size: 1.2em;
+}
 .box1{
   padding: 10px;
 }
@@ -490,6 +500,9 @@ h2{
 }
 .content{
   font-size: 10px;
+}
+.foter1{
+  font-size: 1em;
 }
 .image img{
   height: 200px;
@@ -529,7 +542,7 @@ h2{
 }
 
 .footer1 img {
-  top: 490px;
+  top: 350px;
 }
 .f h1 {
   font-size: 1.2rem;
@@ -551,4 +564,8 @@ h2{
   width: 60px;
   border-radius: 15px;
 }
+.contact h2{
+  font-size: 2.5em;
+}
+
 }
