@@ -421,7 +421,7 @@ body {
     top: 0px; /* Adjust as needed */
     color: red;
     font-size: 5em;
-    font-family: 'Pacifico', cursive;
+    font-family: "Copperplate", Fantasy;
     text-shadow: 0 16px 24px rgba(16, 16, 16, 0.7);
 }
 
@@ -434,6 +434,7 @@ body {
     border: 1px solid white;
     border-radius: 30px;
     padding: 50px;
+    font-size: 1.2em;
     margin: 0; /* Remove margin as we are using positioning */
     box-shadow: 0 16px 24px rgba(16, 16, 16, 0.7);
 }
@@ -462,7 +463,7 @@ body {
     top: 370px; /* Adjust as needed */
     color: red;
     font-size: 5em;
-    font-family: 'Pacifico', cursive;
+    font-family: "Copperplate", Fantasy;
     text-shadow: 0 16px 24px rgba(16, 16, 16, 0.7);
 }
 
@@ -475,10 +476,10 @@ body {
     border: 1px solid white;
     border-radius: 30px;
     padding: 50px;
+    font-size: 1.2em;
     margin: 0; /* Remove margin as we are using positioning */
     box-shadow: 0 16px 24px rgba(16, 16, 16, 0.7);
 }
-
 .image1 img{
     position: absolute; /* Add this line to enable positioning */
     top: 480px; /* Adjust this value to position below the h1 element */
@@ -1031,10 +1032,10 @@ iframe{
     }
     .mission h1 {
         right: 20px;
-        top: 150px; /* Adjust as needed */
+        top: 160px; /* Adjust as needed */
         color: red;
         font-size: 1.5em;
-        font-family: 'Pacifico', cursive;
+        
     }
     .disc2 {
     
