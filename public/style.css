@@ -460,7 +460,7 @@ body {
 .mission h1 {
     position: absolute;
     right: 200px;
-    top: 370px; /* Adjust as needed */
+    top: 380px; /* Adjust as needed */
     color: red;
     font-size: 5em;
     font-family: "Copperplate", Fantasy;
