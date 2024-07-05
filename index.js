@@ -70,7 +70,7 @@ app.post("/submit", async (req, res) => {
       [firstname, lastname, studentClass, dob, fathername, age, mothername, aadhaarno, mobilenumber, emailid, gender]
     );
     const newAdmission = result.rows[0];
-    res.send(`<h2>Admission submitted successfully!</h2><pre>${JSON.stringify(newAdmission, null, 2)}</pre>`);
+     res.json({ success: true, admission: newAdmission });
   } catch (err) {
     console.error("Error inserting admission:", err);
     res.status(500).send("Error submitting admission");
