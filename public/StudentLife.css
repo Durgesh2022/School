@@ -573,7 +573,7 @@ height:4.5rem;
   display: block;
   margin: 0 auto;
   width: 100px; /* Adjust size as per your requirement */
-  top: 680px;
+  top: 740px;
   position: relative;
   z-index: 4; /* Ensure image is above background */
   border-radius: 30px;
